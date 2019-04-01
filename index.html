@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function showHab(n=0){
+			switch(n){
+				case 0:
+					//alert("pasiva");
+					document.getElementById("abilityName").innerHTML = "Embajadora del hierro";
+					document.getElementById("abilityCost").innerHTML = "Ninguno";
+					document.getElementById("abilityDesc").innerHTML = "Poppy lanza su broquel, con lo que obtiene alcance y da&ntildeo m&aacutegico adicional.<p>El broquel aterrizar&aacute en una posici&oacuten cercana y Poppy podr&aacute recogerlo para conseguir un escudo. Los enemigos podr&aacuten pisar el broquel para destruirlo.</p>";
+					document.getElementById("abilityVid").innerHTML = '<iframe src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0078/ability_0078_P1.webm" style="height: 100%"></iframe>'
+					break;
+				case 1:
+					//alert("Q");
+					document.getElementById("abilityName").innerHTML = "Impacto de martillo";
+					document.getElementById("abilityCost").innerHTML = "35/40/45/50/55 Man&aacute";
+					document.getElementById("abilityDesc").innerHTML = "Poppy usa su martillo, inflige da&ntildeo y crea una zona que ralentizar&aacute a los enemigos y explotar&aacute tras un breve lapso de tiempo.<br>Poppy golpea el suelo e inflige 40/60/80/100/120 (+90% Da&ntildeo de Ataque adicional) m&aacutes un 8% de la vida m&aacutexima de los enemigos como da&ntildeo f&iacutesico. Adem&aacutes, deja una zona inestable.Dicha zona ralentiza un 20/25/30/35/40% a los enemigos y explota tras 1 s, infligiendo de nuevo el da&ntildeo inicial.";
+					document.getElementById("abilityVid").innerHTML = '<iframe src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0078/ability_0078_Q1.webm" style="height: 100%"></iframe>'
+					break;
+				case 2:
+					//alert("W");
+					document.getElementById("abilityName").innerHTML = "Presecia inalterable";
+					document.getElementById("abilityCost").innerHTML = "50 Man&aacute";
+					document.getElementById("abilityDesc").innerHTML = "Poppy gana de forma pasiva armadura y resistencia m&aacutegica. Esta bonificaci&oacuten aumenta cuando tiene poca vida. Poppy puede activar Entereza inalterable para evitar que el enemigo se deslice a su alrededor y ganar velocidad de movimiento.<br>Pasiva: Poppy obtiene 0 de armadura y 0 de resistencia m&aacutegica (10% de su armadura y resistencia m&aacutegica). Esta bonificaci&oacuten se duplica si Poppy tiene menos del 40% de vida.<br>Activa: Durante los pr&oacuteximos 2.5 s, Poppy obtiene un 30% de velocidad de movimiento. Con Presencia firme activa, impide que los enemigos a su alrededor puedan utilizar habilidades de movimiento r&aacutepido y les inflige 70/110/150/190/230 (+70% Poder de Habilidad) de da&ntildeo m&aacutegico.";
+					document.getElementById("abilityVid").innerHTML = '<iframe src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0078/ability_0078_W1.webm" style="height: 100%"></iframe>'
+					break;
+				case 3:
+					//alert("E");
+					document.getElementById("abilityName").innerHTML = "Carga heroica";
+					document.getElementById("abilityCost").innerHTML = "70 Man&aacute";
+					document.getElementById("abilityDesc").innerHTML = "Poppy carga hacia su objetivo y lo empuja. Si el objetivo choca contra un muro, se queda aturdido.<p>Poppy embiste a un enemigo, le inflige 60/80/100/120/140 (+50% Da&ntildeo de Ataque adicional) de da&ntildeo f&iacutesico y lo arrastra. Si Poppy empuja al enemigo contra un obst&aacuteculo, el rival sufrir&aacute 60/80/100/120/140 (+50% Da&ntildeo de Ataque adicional) de da&ntildeo f&iacutesico adicional y se quedar&aacute aturdido durante 1.6/1.7/1.8/1.9/2 s.</p>";
+					document.getElementById("abilityVid").innerHTML = '<iframe src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0078/ability_0078_E1.webm" style="height: 100%"></iframe>'
+					break;
+				case 4:
+					//alert("R");
+					document.getElementById("abilityName").innerHTML = "Veredicto de la guardiana";
+					document.getElementById("abilityCost").innerHTML = "100 Man&aacute";
+					document.getElementById("abilityDesc").innerHTML = "Poppy ejecuta un golpe con el martillo que lanza a los enemigos muy, muy lejos.<p>Primer lanzamiento: Poppy concentra su energ&iacutea durante un m&aacuteximo de 3s, lo cual la ralentiza un 10%.</p><p>Segundo lanzamiento: Poppy golpea el suelo y genera una onda de choque que inflige 200/250/300 de da&ntildeo f&iacutesico a los enemigos que est&eacuten alrededor del primer campe&oacuten impactado, lanzando a este a una gran distancia en direcci&oacuten a su plataforma de invocaci&oacuten. La longitud de la onda de choque y la distancia a la que se lanza el campe&oacuten dependen del tiempo de canalizaci&oacuten.Si no se carga, Veredicto de la guardiana inflige la mitad de da&ntildeo y lanza a los enemigos por los aires durante 2s.Los enemigos golpeados con Veredicto de la guardiana cargado no pueden marcarse como objetivo.";
+					document.getElementById("abilityVid").innerHTML = '<iframe src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0078/ability_0078_R1.webm" style="height: 100%"></iframe>'
+					break;
+			}
+		}
+
+	</script>
+	<title>Poppy: La guardiana del martillo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!--Presentacion del campeon-->
+	<div id="banner"></div>
+	<div id="bgname">
+		POPPY
+	</div>
+	<div id="subtitle">
+		<p>La guardiana del martillo</p>
+	</div>
+	<!--Divisor-->
+	<div id="divider"></div>
+	<!--Divisor-->
+	<!--Presentacion del campeon-->
+	<br>
+	<!--Frase, rol y regi&oacuten-->
+	<div class="container">
+		<div id="phrase">
+			<h3 id="titleheader">Frase al invocador:</h3>
+			<br>
+			<p id="note">"No soy un heroe, solo una yordle con un martillo"</p>
+			
+			<p id="author">~Poppy</p>
+		</div>
+		<div id="role">
+			<div class="category" id="roleimg"></div>
+			<p><em style="color: yellow;">Rol: </em>Tanque</p>
+		</div>
+		<div id="region">
+			<div class="category" id="regionimg"></div>
+			<p><em style="color: yellow;">Regi&oacuten: </em>Demacia</p>
+		</div>		
+	</div>
+	<!--Frase, rol y regi&oacuten-->
+	<br>
+	<!--Contenido-->
+	<div class="container" >
+		<!--Campeones relacionados-->
+		<div id="relatedChamps" >
+			<p id="titleheader"> Campeones relacionados</p>
+			<br>
+			<div style="width: 49%; display: inline-block;">
+				<div class="imgredonda" id="champ1"></div>
+				<p id="titleheader">Galio</p>
+			</div>
+			<div style="width: 49%; display: inline-block;">
+				<div class="imgredonda" id="champ2"></div>
+				<p id="titleheader">Shyvana</p>
+			</div>
+		</div>
+		<!--Campeones relacionados-->
+		<br>
+		<!--Bio-->
+		<div class="articule">
+			<h3 id="titleheader" style="font-size: 30px;">Biograf&iacutea</h3>
+
+			<p>Aunque en Runaterra abundan los campeones valientes, pocos son tan tenaces como Poppy. Portando un martillo del doble de su tama&ntildeo, esta perseverante yordle ha pasado largos a&ntildeos en busca del ''H&eacuteroe de Demacia'', un guerrero m&iacutetico que, seg&uacuten dicen, es el &uacutenico capaz de blandir su arma.</p>
+
+			<p>La leyenda cuenta que este h&eacuteroe es la &uacutenica persona capaz de desatar el poder del martillo en su totalidad y llevar a Demacia a la c&uacutespide de su grandeza. Aunque Poppy ha intentado dar con el guerrero legendario, busc&aacutendolo en los rincones m&aacutes lejanos del reino, a&uacuten no logra cumplir con su misi&oacuten. En cada ocasi&oacuten que trat&oacute de entregar el martillo a un posible h&eacuteroe, los resultados fueron desastrosos. En algunos casos, terminaba en la muerte del guerrero. La mayor&iacutea hubiera abandonado este deber hace mucho, pero no cualquiera posee el coraje y la determinaci&oacuten de esta hero&iacutena indomable.</p>
+
+			<p>Alguna vez, Poppy fue una yordle muy diferente. Desde que tiene uso de raz&oacuten, siempre estuvo en busca de un prop&oacutesito. Al sentirse ajena a los caprichos ca&oacuteticos de los dem&aacutes yordles, prefiri&oacute acoger la estabilidad y la estructura dondequiera que las encontrase. Este impulso la condujo a los asentamientos humanos al oeste de Valoran, donde contempl&oacute con asombro c&oacutemo viajaban las caravanas a lo largo del campo en una fila infinita. Muchas de esas personas luc&iacutean andrajosas y agotadas, pero continuaban su marcha en busca de una vida mejor, quiz&aacutes ef&iacutemera, que pudiera existir m&aacutes all&aacute del horizonte.</p>
+
+			<p>Un d&iacutea, sin embargo, vio pasar una caravana distinta. A diferencia del resto de los viajeros, estas personas parec&iacutean tener un prop&oacutesito. Se levantaban exactamente a la misma hora todas las ma&ntildeanas, alertados por el sonido del cuerno de un vigilante. Com&iacutean juntos todos los d&iacuteas a la misma hora, y siempre terminaban al cabo de unos minutos. Armaban y desarmaban sus campamentos con una eficiencia excepcional.</p>
+
+			<p>Mientras que los yordles usaban su magia innata para fabricar cosas extraordinarias, estos humanos lograban haza&ntildeas igual de sorprendentes a trav&eacutes de la coordinaci&oacuten y la disciplina. Actuaban en sincron&iacutea, como si fueran los dientes de un engranaje, y esto los convert&iacutea en algo mucho m&aacutes grande y fuerte que cualquier individuo. Para Poppy, eso era una maravilla m&aacutes asombrosa que toda la magia del mundo.</p>
+
+			<p>Mientras Poppy vigilaba el campamento desde la seguridad de su escondite, pudo ver el brillo de una armadura que emergi&oacute de una carpa. Era el comandante del grupo, quien usaba una brigantina de placas de acero brillantes, una sobre la otra, que conformaban la totalidad de la armadura. Su nombre era Orlon, y su sola presencia parec&iacutea conmover el alma de todos los presentes. Si alguien se sent&iacutea desanimado, era &eacutel quien les recordaba por qu&eacute segu&iacutean adelante. Si alguien ca&iacutea abatido por el cansancio, &eacutel los inspiraba a seguir. Esto le recordaba a Poppy ciertos hechizos de los yordle, pero en este caso, no obraba la magia.</p>
+			
+			<p>Poppy se aproxim&oacute a hurtadillas para ver m&aacutes de cerca. Sin darse cuenta, segu&iacutea a este comandante reluciente, como si el destino mismo le estuviese marcando el camino. Observaba a Orlon mientras dirig&iacutea el entrenamiento de sus soldados. No era alguien muy grande, aunque manejaba su enorme martillo de batalla con una celeridad sorprendente. De noche, Poppy escuchaba atentamente las discusiones en voz baja que sosten&iacutea con los ancianos del campamento. Fue as&iacute que se enter&oacute de sus planes de levantar el campamento y dirigirse al oeste para construir un asentamiento permanente.</p>
+			
+			<p>La mente de Poppy no paraba de formular preguntas. &#191;A d&oacutende se dirig&iacutea Orlon? &#191;De d&oacutende ven&iacutea? &#191;C&oacutemo logr&oacute reunir este meticuloso grupo de viajeros? &#191;Habr&iacutea lugar en &eacutel para una yordle? En ese momento, tom&oacute la decisi&oacuten m&aacutes importante de su vida: por primera vez se mostrar&iacutea ante un humano, ya que nunca antes hab&iacutea sentido una conexi&oacuten con uno de ellos.</p>
+			
+			<p>La presentaci&oacuten fue un tanto desconcertante; Orlon ten&iacutea la misma cantidad de preguntas para Poppy que ella para &eacutel, pero no pas&oacute mucho tiempo para que ambos se volvieran inseparables. Orlon se convirti&oacute en su mentor, y ella en devota de su causa. En el campo de entrenamiento, Poppy era una contrincante ejemplar, la &uacutenica en el batall&oacuten de Orlon que no tem&iacutea atacarlo. No era servil en absoluto: cuestionaba todas sus decisiones con una inocencia casi infantil, como si desconociera que lo &uacutenico que deb&iacutea hacer era acatar &oacuterdenes sin protestar. Lo acompa&ntilde&oacute al sitio donde se levantar&iacutea el nuevo asentamiento, una naci&oacuten nueva y ambiciosa que bautizar&iacutean con el nombre de Demacia, donde todos ser&iacutean bienvenidos, sin importar su posici&oacuten o su pasado, siempre y cuando contribuyeran al bien com&uacuten.</p>
+
+			<p>Orlon se convirti&oacute en una figura querida en todo el reino. Aunque pocos le hab&iacutean visto blandir su martillo, siempre lo portaba en su espalda, y en poco tiempo, el arma se convirti&oacute en un s&iacutembolo venerado de la naci&oacuten incipiente. Los rumores suger&iacutean que el martillo ten&iacutea el poder de aplanar monta&ntildeas y partir la mism&iacutesima tierra en dos.</p>
+			
+			<p>Orlon le confiri&oacute su martillo a Poppy en su lecho de muerte, y con &eacutel, la esperanza de un reino eterno. Fue entonces que Orlon le cont&oacute la historia de la creaci&oacuten del arma. Adem&aacutes, le confes&oacute que en realidad nunca fue planeada para &eacutel: el martillo estaba destinado para el H&eacuteroe de Demacia, el &uacutenico que podr&iacutea mantener a la naci&oacuten en pie. Luego de ver a su amigo dar su &uacuteltimo suspiro, Poppy jur&oacute encontrar a este h&eacuteroe y colocar el arma en sus manos.</p>
+			<p>Lo que Poppy tiene en determinaci&oacuten, lo carece en ego, ya que nunca se le ha ocurrido que ella podr&iacutea ser la hero&iacutena descrita por Orlon.</p>
+			<p></p>
+		</div>
+		<!--Bio-->
+		<br>
+		<!--Habilidades-->
+		<div class="articule">
+			<h3 id="titleheader">habilidades</h3>
+			<img src="img/hab0.png" onclick="showHab(0)">
+			<img src="img/hab1.png" onclick="showHab(1)">
+			<img src="img/hab2.png" onclick="showHab(2)">
+			<img src="img/hab3.png" onclick="showHab(3)">
+			<img src="img/hab4.png" onclick="showHab(4)">
+			<br>
+			<div>
+				<div style="width: 49%; display: inline-block;">
+					<p id="abilityName">Embajadora de hierro</p>
+					Costo <p id="abilityCost">Ninguno</p>
+					<p id="abilityDesc">Poppy lanza su broquel, con lo que obtiene alcance y da&ntildeo m&aacutegico adicional.<br><br>El broquel aterrizar&aacute en una posici&oacuten cercana y Poppy podr&aacute recogerlo para conseguir un escudo. Los enemigos podr&aacuten pisar el broquel para destruirlo.</p>
+				</div>
+
+				<div id="abilityVid" style="width: 49%; display: inline-block;">
+					<iframe src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0078/ability_0078_P1.webm" style="height: 100%"></iframe>
+				</div>
+			</div>
+			
+
+		</div>
+		<!--Habilidades-->
+	</div>
+	<!--Contenido-->
+</body>
+</html>
